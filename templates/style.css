@@ -1,0 +1,270 @@
+/* фон на всех страницах */
+.body {
+    background: #f8f8f8;
+}
+
+.input {
+    align: right
+}
+
+
+/* Первая буква в каждом парагоафе  */
+
+.prod p:first-letter {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    align: "Centre"
+    background: #173e43;
+}
+
+.header {
+    height: 110px;
+    background: #173e43;
+    background-size: 50%;
+}
+
+
+
+.logo {
+    margin-left: 15px;
+    float: left;
+    height: 70px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #e3e0cf;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #9fa8a3;
+    width: 100px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background: #173e43	;
+    color: #fae596;
+}
+input[type="submit"]:active,
+input[type="reset"]:active {
+    background: #fae596	;
+    color: black;
+    border-radius: 0px;
+}
+/* Меню сайта  */
+
+.menu_site li a:active {
+    color: darkviolet;
+}
+
+.menu>ul>li>a {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 14px;
+    font-style:normal;
+}
+
+.menu>ul>li>a:hover {
+    color: blueviolet;
+}
+
+.menu>ul>li>a:active {
+    color: brown;
+}
+
+.menu>ul>li {
+    float: left;
+    margin: 5px 10px;
+    list-style-type: none;   
+}
+
+.menu {
+    float: right;
+    margin: 5px 15px 0 0 ;
+    width: 250 px;
+    background-color: #fae596;
+}
+
+.hello {
+    background-color: #9fa8a3;
+    width: 600px;
+    float: left;
+    margin: 0 50px 0 50px;
+    text-align: center;
+    color: #e3e0cf;
+    clear: both;
+    text-transform: uppercase
+}
+
+/* КАТАЛОГ ПРОДУКТОВ */
+.catalog_product {
+    width: 140px;
+    height: 250px;
+  /*  border: 2px solid #9fa8a3;*/
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 15px 15px 0; 
+    padding: 10px;
+    float: left;
+    box-shadow: 0 0 5px #9fa8a3;
+}
+
+.catalog_product a {
+    display: block;
+    
+    
+}
+.catalog_product:hover {
+     box-shadow: 0 0 10px #173e43;
+    background-color: white;
+}
+
+
+}
+/* Товары. Заголовки (Краткое о
+    писание товара, Характеристики, Подробное описание товара)  */
+.header_product {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.prod_desc_logo {
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+.prod_descrip_1 {
+    overflow: hidden;    
+}
+
+.prod_descrip_2 {
+    clear: both;
+}
+
+.goods_img {
+    border: 1px solid;
+    height: 300px;
+    border-color: blanchedalmond
+}
+
+.goods_img:hover {
+    border-color: transparent
+}
+
+/* Товары. Краткое описание. текст  */
+.shot_descrip {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px
+}
+
+/* Товары. Полное описание. текст  */
+.detal_descrip {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left
+}
+
+/* Товары. список характеристик товара  */
+.list_goods_char {
+    list-style-image: url(../ico/drink-2-icon.png);
+    font-weight: bold;
+}
+
+
+/* таблица на странице просмотр товара */
+.table_goods_char td {
+    border: 1px solid black;
+    width: 50px;
+    height: 20px;
+}
+
+.table_goods_char {
+    border-collapse: collapse
+}
+
+.table_goods_char_first {
+    height: 40px
+}
+
+.footer_line_befor {
+    clear: both;
+}
+
+/* Страница КОНТАКТА */
+
+.contact_info_out {
+    width: 400px;
+    box-shadow: 0 0 10px #9fa8a3;
+    border-radius: 10px; 
+    padding: 10px;
+}
+
+.contact_info_out fieldset {
+    border: 1px #9fa8a3 solid;
+}
+        
+.contact_info {
+    border-color: #9fa8a3;
+}
+
+.contact_info p {
+    padding: 0;
+    margin: 7px
+}
+
+.input {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.input_addr:focus {
+    color: beige;
+    background-color: darkblue
+}
+
+.input_text {
+    text-transform: capitalize
+}
+
+.input_button {
+    margin: 13px 0 0 0;
+}
+
+.contact_addr {
+    padding-left: 30px;
+    margin-bottom: 30px
+}
+
+.contact_addr p {
+    margin: 8px
+}
+
+.footer {
+    background-color: #dddfd4;
+    height: 50px;
+    text-align: right;
+    padding: 10px 15px 0 0;
+    clear: both
+}
+
+
+

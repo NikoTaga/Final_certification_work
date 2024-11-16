@@ -1,6 +1,8 @@
 import pickle
 
-from numpy import round
+import numpay
+
+# from numpy import round
 
 
 def calc_cost(area):
